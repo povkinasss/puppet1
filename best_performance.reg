@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+
+;Apply the following registry values to disable the settings
+
+
+;This is a must - set appearance options to "custom"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects]
+"VisualFXSetting"=dword:2
+
+; end
